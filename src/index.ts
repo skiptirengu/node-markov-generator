@@ -1,2 +1,2 @@
-export * from './generatorOptions';
-export * from './textGenerator';
+export * from "./generatorOptions";
+export * from "./textGenerator";
