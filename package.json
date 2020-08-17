@@ -16,7 +16,10 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@types/jest": "^26.0.10",
     "@types/node": "^10.12.18",
+    "jest": "^26.4.0",
+    "ts-jest": "^26.2.0",
     "typescript": "^3.7.5"
   },
   "repository": {
@@ -24,5 +27,8 @@
     "url": "https://github.com/mixaildudin/node-markov-generator"
   },
   "main": "lib/index.js",
-  "types": "lib/index.d.ts"
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "jest"
+  }
 }
